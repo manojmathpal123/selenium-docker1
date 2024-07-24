@@ -1,6 +1,6 @@
 package com.seleniumDocker.Test.flightreservation.VendorPortal;
 
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import org.testng.AssertJUnit;
 import com.SeleniumDocker.pages.flightReservation.FlightREservation.Vendorportal.DashboardPage;
 import com.SeleniumDocker.pages.flightReservation.FlightREservation.Vendorportal.LoginPage;
@@ -10,8 +10,6 @@ import com.seleniumDocker.Test.utils.Config;
 import com.seleniumDocker.Test.utils.Constants;
 import com.seleniumDocker.Test.utils.JsonUtils;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 

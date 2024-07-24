@@ -77,14 +77,14 @@
              <testFailureIgnore>true</testFailureIgnore>
           <systemPropertyVariables>
             <browser>chrome</browser>
-              <selenium.grid.enable>true</selenium.grid.enable>
+              <selenium.grid.enable>false</selenium.grid.enable>
           </systemPropertyVariables>
              <suiteXmlFiles>
                  <file>src/main/resources/test-suites/Vendor-POrtal.xml</file>
              </suiteXmlFiles>
              <parallel>tests</parallel>
              <threadCount>3</threadCount>
-             <remoteRepositories>target/test-output</remoteRepositories>
+
          </configuration>
 
 
