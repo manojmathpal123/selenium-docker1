@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "flight-reservation">
+
+    <test name = "no-of-passenger1">
+          <parameter name = "expectedresult" value = "$584 USD"/>
+        <classes>
+            <class name = "com.seleniumDocker.Test.flightreservation.FlightReservationTest"/>
+        </classes>
+    </test>
+
+    <test name = "no-of-passenger2">
+        <parameter name = "expectedresult" value = "$1129 USD"/>
+        <classes>
+            <class name = "com.seleniumDocker.Test.flightreservation.FlightReservationTest"/>
+        </classes>
+    </test>
+
+    <test name = "no-of-passenger3">
+        <parameter name = "expectedresult" value = "$1728 USD"/>
+        <classes>
+            <class name = "com.seleniumDocker.Test.flightreservation.FlightReservationTest"/>
+        </classes>
+    </test>
+
+    <test name = "no-of-passenger4">
+        <parameter name = "expectedresult" value = "$2187 USD"/>
+        <classes>
+            <class name = "com.seleniumDocker.Test.flightreservation.FlightReservationTest"/>
+        </classes>
+    </test>
+
+
+
+</suite>

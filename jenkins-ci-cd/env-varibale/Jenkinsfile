@@ -1,0 +1,68 @@
+pipeline{
+
+  agent any
+
+   environment{
+   NUMBER = 3
+   }
+
+  stages{
+
+         stage('stage-1'){
+               steps{
+                   echo "NUMBER=${NUMBER}"
+                   echo "doing mvn package"
+                   echo "doing mvn install"
+                   echo "doing mvn test"
+
+
+               }
+
+
+         }
+
+         stage('stage-2'){
+         environment {
+          NUMBER = 6
+         }
+
+         steps{
+                 echo "NUMBER=${NUMBER}"
+                  echo "doing mvn "
+
+         }
+
+
+
+         }
+
+
+         stage('stage-3'){
+            steps{
+            echo "NUMBER=${NUMBER}"
+            }
+
+         }
+
+
+
+
+
+  }
+
+
+
+   post{
+   always{
+        echo "doing clean up"
+   }
+
+   }
+
+
+
+
+
+
+
+}

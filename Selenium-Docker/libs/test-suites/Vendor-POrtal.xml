@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Vendor-Portal" parallel="tests" thread-count="4">
+
+    <test name = "VendorPOrtal-info">
+        <parameter name = "testdatapath" value = "test-data/vendor-portal/sam.json"/>
+        <classes>
+            <class name = "com.seleniumDocker.Test.flightreservation.VendorPortal.VendorPortalTest"/>
+
+        </classes>
+    </test>
+    <test name = "VendorPOrtal-info1">
+        <parameter name = "testdatapath" value = "test-data/vendor-portal/mike.json"/>
+        <classes>
+            <class name = "com.seleniumDocker.Test.flightreservation.VendorPortal.VendorPortalTest"/>
+        </classes>
+    </test>
+
+    <test name = "VendorPOrtal-info2">
+        <parameter name = "testdatapath" value = "test-data/vendor-portal/john.json"/>
+        <classes>
+            <class name = "com.seleniumDocker.Test.flightreservation.VendorPortal.VendorPortalTest"/>
+        </classes>
+    </test>
+
+</suite>
