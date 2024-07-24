@@ -1,8 +1,0 @@
-Started by user [8mha:////4CUtc8DpV32YBLxoL4lnUNndrQl38LTdJvOlF/wOy2lsAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
-Running as SYSTEM
-Building remotely on [8mha:////4NbtlVJrwUWRPmoZeu4YLLtA7FzodvXts1/9K/7puKrqAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQifT9/F1dDAHjR2ovEAAAA[0mNODE1 in workspace /home/manoj/eclipse-workspace/Selenium-Docker/jenkins-ci-cd/jenkins/volumes/node/workspace/DOCKER_TEST
-[DOCKER_TEST] $ /bin/sh -xe /tmp/jenkins17271017001615965154.sh
-+ docker ps
-CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS          PORTS                                                                                      NAMES
-95f67b4115b4   jenkins/jenkins:lts   "/usr/bin/tini -- /u…"   30 minutes ago   Up 29 minutes   0.0.0.0:8080->8080/tcp, :::8080->8080/tcp, 0.0.0.0:50000->50000/tcp, :::50000->50000/tcp   jenkins_jenkins_1
-Finished: SUCCESS
